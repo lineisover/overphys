@@ -1,0 +1,63 @@
+name: overphys
+# version: "0.1"
+# build: "241022a"
+language: eng
+
+display_name: "OverPhys"
+authors: OverLine
+description: |
+    OverPhys - Various physics edits that change gameplay in one way or another.
+release_date: "WIP"
+link: "https://github.com/lineisover/overphys"
+
+# logo:
+# install_banner:
+
+tags: [gameplay, visual, vehicles]
+
+change_log: assets/changelog_eng.md
+
+# screenshots:
+
+# translations: [eng]
+
+prerequisites:
+    - name: community_remaster
+      versions:
+        - ">=1.14.1"
+      optional_content:
+        - hd_vehicle_models
+
+patcher_version_requirement: "2.1"
+
+no_base_content: true
+
+optional_content:
+  - name: roads
+    display_name: "Road models"
+    description: |
+      Modifies the model of a dirt road, adds bumps to it.
+    default_option: skip
+    data_dirs:
+      - "roads"
+  - name: vehicles
+    display_name: "Vehicles physics"
+    description: |
+      Changes the physical characteristics of the vehicles. Important! Correct work will be only at loca 120 fps.
+    default_option: skip
+    data_dirs:
+      - "vehicles"
+  - name: tiles
+    display_name: "Landscape physics"
+    description: |
+      Alters the physical characteristics of landscape materials.
+    default_option: skip
+    data_dirs:
+      - "tiles"
+  - name: effects
+    display_name: "Updating the effects"
+    description: |
+      Modifies effects, adds new effects.
+    default_option: skip
+    data_dirs:
+      - "effects"
