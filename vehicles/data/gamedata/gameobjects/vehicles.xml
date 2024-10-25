@@ -211,7 +211,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		LookRadius			= "200.0"
 		IntersectionRadius	= "2.5"
 		TakingRadius		= "30.0"
-		DriftCoeff		="0.3"
+		DriftCoeff		="0.4"
 		MassSize			= "4 1 1"
 		MassTranslation		= "0 -0.5 0"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_SMALL"
@@ -251,14 +251,14 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		SteeringSpeed		= "1.0"
 		
-                AdditionalWheelsHover   ="0.1"
+        AdditionalWheelsHover   ="0.1"
 
 		DecisionMatrix		= "vehiclemain.lua"
 
 		LookRadius			= "200.0"
 		IntersectionRadius	= "2.5"
 		TakingRadius		= "30.0"
-		DriftCoeff		= "0.3"
+		DriftCoeff		= "0.4"
 		MassSize		= "4 1 1"
 		MassTranslation		= "0 -0.5 0"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_SMALL"
@@ -292,12 +292,12 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "Sml2"
 		ResourceType			= "VEHICLE"
 
-		DiffRatio			= "2.0"
+		DiffRatio			= "5.0"
 		MaxEngineRpm		= "7000"
 		LowGearShiftLimit		= "1000"
-		HighGearShiftLimit	= "2000"
+		HighGearShiftLimit	= "4000"
 
-		AdditionalWheelsHover   ="0.1"
+		AdditionalWheelsHover   ="0.2"
 		SteeringSpeed		= "1.0"
 		
 		HornSound		= "ET_S_HORN01"
@@ -307,7 +307,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		LookRadius			= "200.0"
 		IntersectionRadius	= "2.5"
 		TakingRadius		= "30.0"
-		DriftCoeff		= "0.3"
+		DriftCoeff		= "0.4"
 		MassSize		= "4 1 2"
 		MassTranslation		= "0 -0.5 0"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_SMALL"
@@ -356,7 +356,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		LookRadius			= "200.0"
 		IntersectionRadius	= "2.5"
 		TakingRadius		= "30.0"
-		DriftCoeff		= "0.3"
+		DriftCoeff		= "0.4"
 		MassSize		= "2 1 4"
 		MassTranslation		= "0 -0.5 -1.1"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_SMALL"
@@ -434,10 +434,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name			= "Scout"
 		ResourceType			= "VEHICLE"
 
-		DiffRatio		= "2.5"
-		MaxEngineRpm		= "7000"
-		LowGearShiftLimit	= "1000"
-		HighGearShiftLimit	= "2000"
+		DiffRatio		= "4.0"
+		MaxEngineRpm		= "5000"
+		LowGearShiftLimit	= "2000"
+		HighGearShiftLimit	= "4200"
 
 		SteeringSpeed		= "1.0"
 		
@@ -447,15 +447,15 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		LookRadius		= "200.0"
 		IntersectionRadius	= "3.0"
 		TakingRadius		= "30.0"
-		DriftCoeff		= "0.2"
+		DriftCoeff		= "0.5"
 		MassSize		= "4 1 2"
-		MassTranslation		= "0 -1.4 0"
+		MassTranslation		= "0 -0.6 0"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_SMALL"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_SMALL"
 		DestroyEffectEnergy	= "ET_PS_VEH_EXP3_SMALL"
 		DestroyEffectWater	= "ET_PS_VEH_EXP2_SMALL"
 
-		AdditionalWheelsHover = "0.2"
+		AdditionalWheelsHover = "0.1"
 
 		Abstract 		= "true"	>
 
@@ -598,22 +598,22 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ResourceType			= "VEHICLE"
 
 		DiffRatio		= "3.0"
-		MaxEngineRpm		= "7000"
-		LowGearShiftLimit	= "1000"
-		HighGearShiftLimit	= "2000"
+		MaxEngineRpm		= "4000"
+		LowGearShiftLimit	= "2000"
+		HighGearShiftLimit	= "3200"
 
 		SteeringSpeed		= "0.5"
 
 		HornSound		= "ET_S_HORN01"
 
 		DecisionMatrix		= "vehiclemain.lua"
-		DriftCoeff		= "0.5"
+		DriftCoeff		= "0.99"
 		LookRadius		= "200.0"
 		IntersectionRadius	= "5.0"
 		TakingRadius		= "30.0"
 
 		MassSize		= "6 1 3"
-		MassTranslation		= "0 -2.0 -0.2" 
+		MassTranslation		= "0 -0.5 -0.2" 
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
 		DestroyEffectEnergy	= "ET_PS_VEH_EXP3_MED"
@@ -667,13 +667,14 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HornSound		= "ET_S_HORN01"
 
 		DecisionMatrix		= "vehiclemain.lua"
-
+		
 		LookRadius		= "200.0"
 		IntersectionRadius	= "4.5"
 		TakingRadius		= "30.0"
 
 		MassSize		= "10 1 5"
-		MassTranslation		= "0 -1.6 0"
+		MassTranslation		= "0 -0.6 0"
+		DriftCoeff		= "0.99"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
 		DestroyEffectEnergy	= "ET_PS_VEH_EXP3_MED"
@@ -734,12 +735,13 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		TakingRadius		= "30.0"
 
 		MassSize		= "10 1 5"
-		MassTranslation		= "0 -1.6 0"
+		MassTranslation		= "0 -0.6 0"
+		DriftCoeff		= "0.99"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
 		DestroyEffectEnergy	= "ET_PS_VEH_EXP3_MED"
 		DestroyEffectWater	= "ET_PS_VEH_EXP2_MED"
-
+		AdditionalWheelsHover   ="0.2"
 		Abstract 		= "true"	>
 
 		<MainPartDescription id = "CHASSIS" partResourceType = "CRUISER_CHASSIS">
@@ -801,11 +803,13 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		TakingRadius		= "30.0"
 
 		MassSize		= "18 1 13"
-		MassTranslation		= "0 -1.0 0"
+		MassTranslation		= "0 -0.8 0"
+		DriftCoeff		= "0.99"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
 		DestroyEffectEnergy	= "ET_PS_VEH_EXP3_MED"
 		DestroyEffectWater	= "ET_PS_VEH_EXP2_MED"
+
 		Abstract 		= "true">
 
 		<MainPartDescription id = "CHASSIS" partResourceType = "DOZER_CHASSIS">
@@ -927,7 +931,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		MassSize		= "3 2 8"
 		MassTranslation		= "0 -0.1 0"
 
-		DriftCoeff		= "0.06"
+		DriftCoeff		= "0.99"
 		AdditionalWheelsHover = "0.1"
 		Abstract 		= "true">
 
@@ -979,10 +983,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		IntersectionRadius	= "4.0"
 		TakingRadius		= "30.0"
 
-        DriftCoeff		= "0.07"
+        DriftCoeff		= "0.99"
 
 		MassSize		= "3.5 2.5 9"
-		MassTranslation		= "0 -0.3 0"
+		MassTranslation		= "0 -0.5 0"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
 		DestroyEffectEnergy	= "ET_PS_VEH_EXP3_MED"
@@ -1073,7 +1077,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		IntersectionRadius	= "7.0"
 		TakingRadius		= "30.0"
 
-		DriftCoeff		= "0.08"
+		DriftCoeff		= "0.99"
 
 		MassSize		= "5 3 12"
 		MassTranslation		= "0 -1.4 0"
@@ -1143,7 +1147,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		IntersectionRadius	= "9.0"
 		TakingRadius		= "30.0"
 
-		DriftCoeff		= "0.04"
+		DriftCoeff		= "0.99"
 
 		MassSize		= "4 4.5 12"
 		MassTranslation		= "0 -0.8 0.5"
@@ -1207,7 +1211,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		IntersectionRadius	= "9.0"
 		TakingRadius		= "30.0"
 
-		DriftCoeff		= "0.01"
+		DriftCoeff		= "0.99"
 
 		MassSize		= "5 2.5 12"
 		MassTranslation		= "0 -0.8 0"
