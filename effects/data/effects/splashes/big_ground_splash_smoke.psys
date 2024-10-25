@@ -7,7 +7,7 @@
 			ParticleAgeMin="1.000"
 			ParticleAgeMax="3.000"
 			MaxParticles="200"
-			EmitAtPeriod="20.000"
+			EmitAtPeriod="50.000"
 			Phase="0.000"
 			EmitLength="1.000"
 			RepeatPeriod="1.000"
@@ -17,11 +17,11 @@
 			PhaseMax="0.000" />
 
 		<Force
-			Min="0.300 0.000 -0.300"
-			Max="-0.300 0.000 0.300"
+			Min="-1.000 1.000 -1.000"
+			Max="1.000 1.500 1.000"
 			Type="box"
-			PosMin="0.000 1.000 0.000"
-			PosMax="0.000 1.000 0.000" />
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
 
 		<Mesh
 			Enable="0"
@@ -76,19 +76,18 @@
 				k:17="6.700"
 				k:18="6.800"
 				k:19="6.900" />
-		</Keys>
+</Keys>
 
 		<Render
 			TrailLen="10"
-			ScaleParts="0.200"
+			ScaleParts="0.600"
 			BlendMode="1"
 			UpdateXForm="0"
 			SpriteAngle="0.000"
 			Orient="0"
 			Texture="data\fx\smoke\smoke_new.tga"
 			Weather="0"
-			TexTiling="0.000"
-			ParentDependency="0.000" />
+			TexTiling="0.000" />
 
 		<Attr
 			Name="SA_1"
@@ -107,9 +106,9 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="2.000 1.000 2.000"
-				Max="-2.000 6.000 -2.000" />
-		</Attr>
+				Min="-1.000 1.000 -1.000"
+				Max="1.000 6.000 1.000" />
+</Attr>
 
 		<Attr
 			Name="SA_2"
@@ -117,7 +116,7 @@
 			<Emitter
 				SystemMode="cart"
 				FuncMode="rnd"
-				WorkMode="vel"
+				WorkMode="accel"
 				PeriodX="2.000"
 				PeriodY="2.000"
 				PeriodZ="2.000"
@@ -128,8 +127,8 @@
 				EmitterOn="0" />
 
 			<Force
-				Min="0.000 -1.000 0.000"
-				Max="0.000 -3.000 0.000" />
-		</Attr>
-	</PS>
+				Min="0.000 0.000 0.000"
+				Max="0.000 0.000 0.000" />
+</Attr>
+</PS>
 </PSEditor>
