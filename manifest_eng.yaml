@@ -1,23 +1,26 @@
 name: overphys
-# version: "0.1"
-# build: "241022a"
+# version: "1.0"
+# build: "271022a"
 language: eng
 
 display_name: "OverPhys"
 authors: OverLine
 description: |
-    OverPhys - Various physics edits that change gameplay in one way or another.
+    OverPhys - A collection of changes to physics and related parameters, vehicles and surfaces. Additionally changes some effects.
+    Important! All physics settings work as intended only at loca in 120 fps.
+    Spinning around the enemy has never been so difficult!
 release_date: "WIP"
 link: "https://github.com/lineisover/overphys"
 
-# logo:
-# install_banner:
+logo: assets/overphys_logo.png
+install_banner: assets/overphys_banner.png
 
 tags: [gameplay, visual, vehicles]
 
 change_log: assets/changelog_eng.md
 
-# screenshots:
+screenshots:
+  - img: assets/screen/0.png
 
 # translations: [eng]
 
@@ -36,14 +39,14 @@ optional_content:
   - name: roads
     display_name: "Road models"
     description: |
-      Modifies the model of a dirt road, adds bumps to it.
+      Modifies the model of a dirt road, adds ruts and bumps to it.
     default_option: skip
     data_dirs:
       - "roads"
   - name: vehicles
     display_name: "Vehicles physics"
     description: |
-      Changes the physical characteristics of the vehicles. Important! Correct work will be only at loca 120 fps.
+      Changes the physical characteristics of cars, as well as the operation of the suspension. Important! Correct operation will be only locked at 120 fps.
     default_option: skip
     data_dirs:
       - "vehicles"
@@ -57,7 +60,7 @@ optional_content:
   - name: effects
     display_name: "Updating the effects"
     description: |
-      Modifies effects, adds new effects.
+      Modifies the effects of dust from under the tires.
     default_option: skip
     data_dirs:
       - "effects"
