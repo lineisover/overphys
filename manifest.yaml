@@ -21,6 +21,7 @@ change_log: assets/changelog.md
 
 screenshots:
   - img: assets/screen/0.png
+  - img: assets/screen/1.png
 
 translations: [eng]
 
