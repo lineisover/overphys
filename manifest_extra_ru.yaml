@@ -1,6 +1,6 @@
 name: overphys_extra
 version: "1.0"
-build: "271022a"
+build: "281022a"
 language: ru
 
 display_name: "OverPhys [ExtraMachines]"
@@ -9,7 +9,7 @@ description: |
     OverPhys - Сборник изменений физики и связанных с ней параметров, автомобилей и поверхностей. Дополнительно изменяет некоторые эффекты.
     Важно! Все настройки физики работают так как задумано только при локе в 120 fps.
     Крутиться вокруг врага еще никогда не было так сложно!
-release_date: "WIP"
+release_date: "28.10.2024"
 link: "https://github.com/lineisover/overphys"
 
 logo: assets/overphys_logo.png
