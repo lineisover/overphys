@@ -1,9 +1,9 @@
-name: overphys
+name: overphys_extra
 # version: "1.0"
 # build: "271022a"
 language: eng
 
-display_name: "OverPhys"
+display_name: "OverPhys [ExtraMachines]"
 authors: OverLine
 description: |
     OverPhys - A collection of changes to physics and related parameters, vehicles and surfaces. Additionally changes some effects.
@@ -25,14 +25,15 @@ screenshots:
 
 # translations: [eng]
 
-variants: [extra]
-
 prerequisites:
-    - name: community_remaster
+    - name: [community_remaster]
       versions:
         - ">=1.14.1"
       optional_content:
         - hd_vehicle_models
+    - name: ExtraMachines
+      versions:
+        - ">=1.2.1"
 
 patcher_version_requirement: "2.1"
 
@@ -53,6 +54,7 @@ optional_content:
     default_option: skip
     data_dirs:
       - "vehicles"
+      - "extra"
   - name: tiles
     display_name: "Landscape physics"
     description: |
