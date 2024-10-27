@@ -986,7 +986,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
         DriftCoeff		= "0.99"
 
 		MassSize		= "3.5 2.5 9"
-		MassTranslation		= "0 -0.5 0"
+		MassTranslation		= "0 -0.6 0"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
 		DestroyEffectEnergy	= "ET_PS_VEH_EXP3_MED"
@@ -1018,11 +1018,12 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	</Prototype>
 
 	<Prototype
-		Class			= "Vehicle"
+		Class				= "Vehicle"
 		Name				= "MolokovozTrailer"
 
 		MassSize			= "3.5 2.5 7"
 		MassTranslation		= "0 -0.6 0"
+		DriftCoeff			= "0.99"
 
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
@@ -1080,7 +1081,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		DriftCoeff		= "0.99"
 
 		MassSize		= "5 3 12"
-		MassTranslation		= "0 -1.4 0"
+		MassTranslation		= "0 -1.5 0"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
 		DestroyEffectEnergy	= "ET_PS_VEH_EXP3_MED"
@@ -1150,7 +1151,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		DriftCoeff		= "0.99"
 
 		MassSize		= "4 4.5 12"
-		MassTranslation		= "0 -0.8 0.5"
+		MassTranslation		= "0 -1.2 0.5"
 		AdditionalWheelsHover = "0.1"
 		Abstract 		= "true" >
 
