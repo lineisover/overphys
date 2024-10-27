@@ -7,7 +7,7 @@ display_name: "OverPhys [ExtraMachines]"
 authors: OverLine
 description: |
     OverPhys - A collection of changes to physics and related parameters, vehicles and surfaces. Additionally changes some effects.
-    Important! All physics settings work as intended only at loca in 120 fps.
+    Important! All physics settings work as intended only when the game is locked to 120 fps.
     Spinning around the enemy has never been so difficult!
 release_date: "28.10.2024"
 link: "https://github.com/lineisover/overphys"
