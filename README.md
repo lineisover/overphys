@@ -48,13 +48,14 @@
 Официальная поддержка:
 - [Community Remaster](https://github.com/DeusExMachinaTeam/EM-CommunityPatch)
 - [ExtraMachines](https://github.com/lineisover/ExtraMachinesCP)
+- [ISL](https://github.com/zatinu322/ImprovedStoryline)
 
 ## Развитие
 
 В будущем планируется:
 
-- Поддержка [ISL](https://github.com/zatinu322/ImprovedStoryline)
 - Сделать физику тайлов разнообразнее
+- Сделать эффекты для зимнего региона ISL
 
 ## Помочь проекту
 

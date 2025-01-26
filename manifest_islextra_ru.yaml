@@ -1,9 +1,9 @@
-name: overphys
+name: overphys_islextra
 version: "1.0.1"
 build: "250126a"
 language: ru
 
-display_name: "OverPhys"
+display_name: "OverPhys [ISL+ExtraMachines]"
 authors: OverLine
 description: |
     OverPhys - Сборник изменений физики и связанных с ней параметров, автомобилей и поверхностей. Дополнительно изменяет некоторые эффекты.
@@ -25,14 +25,18 @@ screenshots:
 
 translations: [eng]
 
-variants: [extra, isl, islextra]
-
 prerequisites:
-    - name: community_remaster
+    - name: [community_remaster]
       versions:
         - ">=1.14.1"
       optional_content:
         - hd_vehicle_models
+    - name: [ExtraMachines_ISL]
+      versions:
+        - ">=1.2.2"
+    - name: [improved_storyline_hd]
+      versions:
+        - ">=1.2.1"
 
 patcher_version_requirement: "2.1"
 
@@ -52,14 +56,15 @@ optional_content:
       Изменяет физические характеристики автомобилей, а так же работу подвески. Важно! Правильная работа будет только при локе в 120 fps.
     default_option: skip
     data_dirs:
-      - "vehicles"
+      - "isl/vehicles"
+      - "extra"
   - name: tiles
     display_name: "Физика ландшафта"
     description: |
       Изменяет физические характеристики материалов ландшафта.
     default_option: skip
     data_dirs:
-      - "tiles"
+      - "isl/tiles"
   - name: effects
     display_name: "Обновление эффектов"
     description: |

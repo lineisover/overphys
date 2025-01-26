@@ -1,9 +1,9 @@
-name: overphys_extra
+name: overphys_islextra
 # version: "1.0.1"
 # build: "250126a"
 language: eng
 
-display_name: "OverPhys [ExtraMachines]"
+display_name: "OverPhys [ISL+ExtraMachines]"
 authors: OverLine
 description: |
     OverPhys - A collection of changes to physics and related parameters, vehicles and surfaces. Additionally changes some effects.
@@ -31,7 +31,10 @@ prerequisites:
         - ">=1.14.1"
       optional_content:
         - hd_vehicle_models
-    - name: ExtraMachines
+    - name: [ExtraMachines_ISL]
+      versions:
+        - ">=1.2.2"
+    - name: [improved_storyline_hd]
       versions:
         - ">=1.2.1"
 
@@ -53,7 +56,7 @@ optional_content:
       Changes the physical characteristics of cars, as well as the operation of the suspension. Important! Correct operation will be only locked at 120 fps.
     default_option: skip
     data_dirs:
-      - "vehicles"
+      - "isl/vehicles"
       - "extra"
   - name: tiles
     display_name: "Landscape physics"
@@ -61,7 +64,7 @@ optional_content:
       Alters the physical characteristics of landscape materials.
     default_option: skip
     data_dirs:
-      - "tiles"
+      - "isl/tiles"
   - name: effects
     display_name: "Updating the effects"
     description: |

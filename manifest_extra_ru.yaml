@@ -1,6 +1,6 @@
 name: overphys_extra
-version: "1.0"
-build: "241028a"
+version: "1.0.1"
+build: "250126a"
 language: ru
 
 display_name: "OverPhys [ExtraMachines]"
@@ -33,7 +33,7 @@ prerequisites:
         - hd_vehicle_models
     - name: ExtraMachines
       versions:
-        - ">=1.2.1"
+        - ">=1.2.2"
 
 patcher_version_requirement: "2.1"
 

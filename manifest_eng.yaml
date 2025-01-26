@@ -1,6 +1,6 @@
 name: overphys
-# version: "1.0"
-# build: "241028a"
+# version: "1.0.1"
+# build: "250126a"
 language: eng
 
 display_name: "OverPhys"
