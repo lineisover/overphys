@@ -47,8 +47,7 @@
 
 Официальная поддержка:
 - [Community Remaster](https://github.com/DeusExMachinaTeam/EM-CommunityPatch)
-- [ExtraMachines](https://github.com/lineisover/ExtraMachinesCP)
-- [ISL](https://github.com/zatinu322/ImprovedStoryline)
+- [ExtraMachines](https://github.com/lineisover/ExtraMachinesCP
 
 ## Развитие
 
