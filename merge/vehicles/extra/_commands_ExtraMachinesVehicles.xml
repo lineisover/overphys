@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="ChevC10"
+        DriftCoeff="0.99"
+        MassTranslation="0 -0.1 -0.5"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Tractor"
+        DriftCoeff="0.99"
+        MassTranslation="0 -1.1 0"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Tornado"
+        DriftCoeff="0.99"
+        MassTranslation="0 -0.1 -0.5"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="M35"
+        DriftCoeff="0.99"
+        MassTranslation="0 -1.5 0"/>
+</Prototypes>

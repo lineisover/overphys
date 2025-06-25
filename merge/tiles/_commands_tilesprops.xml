@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<tileprops>
+    <type
+        _Action="Modify"
+        _ParentXPath="types"
+        _SelectorKeys="name"
+        name="ROCK_GENERAL"
+        friction="0.5"
+        resistance="0.1"/>
+
+    <type
+        _Action="Add"
+        _ParentXPath="types"
+        _SelectorKeys="name"
+        name="TECH_GENERAL"
+        splash="ROCK"
+        wheeltracetexture="data\fx\protectors\protector_rock.tga"
+        friction="0.9"
+        resistance="0.1"/>
+
+    <type
+        _Action="Modify"
+        _ParentXPath="types"
+        _SelectorKeys="name"
+        name="GROUND_GENERAL"
+        friction="0.9"
+        resistance="0.2"/>
+
+    <type
+        _Action="Modify"
+        _ParentXPath="types"
+        _SelectorKeys="name"
+        name="GRASS_GENERAL"
+        friction="0.6"
+        resistance="0.2"/>
+
+    <type
+        _Action="Modify"
+        _ParentXPath="types"
+        _SelectorKeys="name"
+        name="SAND_GENERAL"
+        friction="0.5"
+        resistance="0.6"/>
+
+    <rocks
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="rocks"
+        type="ROCK_GENERAL"
+        wheeltracetexture="data\fx\protectors\protector_rock.tga"
+        friction="0.5"
+        resistance="0.1"/>
+
+    <techno_1
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="techno_1"
+        type="TECH_GENERAL"/>
+
+    <techno_2
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="techno_2"
+        type="TECH_GENERAL"/>
+
+    <techno_3
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="techno_3"
+        type="TECH_GENERAL"/>
+
+    <concrete_covering
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="concrete_covering"
+        type="TECH_GENERAL"/>
+
+    <tech_1
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="tech_1"
+        type="TECH_GENERAL"/>
+
+    <tech_2
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="tech_2"
+        type="TECH_GENERAL"/>
+
+    <tech_3
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="tech_3"
+        type="TECH_GENERAL"/>
+
+    <tech_4
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="tech_4"
+        type="TECH_GENERAL"/>
+
+    <tech_5
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="tech_5"
+        type="TECH_GENERAL"/>
+
+    <tech_6
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="tech_6"
+        type="TECH_GENERAL"/>
+
+    <ttech_1
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="ttech_1"
+        type="TECH_GENERAL"/>
+
+    <ttech_2
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="ttech_2"
+        type="TECH_GENERAL"/>
+
+    <ttech_3
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="ttech_3"
+        type="TECH_GENERAL"/>
+
+    <ttech_4
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="ttech_4"
+        type="TECH_GENERAL"/>
+
+    <ttech_5
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="ttech_5"
+        type="TECH_GENERAL"/>
+
+    <ttech_6
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="ttech_6"
+        type="TECH_GENERAL"/>
+
+    <sandtech1
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="sandtech1"
+        type="TECH_GENERAL"/>
+
+    <sandtech2
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="sandtech2"
+        type="TECH_GENERAL"/>
+
+    <sandtech3
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="sandtech3"
+        type="TECH_GENERAL"/>
+
+    <sandtech4
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="sandtech4"
+        type="TECH_GENERAL"/>
+
+    <sandtech5
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="sandtech5"
+        type="TECH_GENERAL"/>
+
+    <sandtech6
+        _Action="Modify"
+        _ParentXPath="tiles"
+        _Selector="sandtech6"
+        type="TECH_GENERAL"/>
+</tileprops>

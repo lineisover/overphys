@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="ChevC10Wheel01l"
+        SuspensionCFM="0.003"
+        SuspensionERP="0.25"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="ChevC10Wheel01r"
+        SuspensionCFM="0.003"
+        SuspensionERP="0.25"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="ChevC10Wheel02"
+        SuspensionCFM="0.001"
+        SuspensionERP="0.25"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="TractorWheel01l"
+        SuspensionCFM="0.0015"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="TractorWheel01r"
+        SuspensionCFM="0.0015"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="TractorWheel02r"
+        SuspensionCFM="0.0015"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="TractorWheel02l"
+        SuspensionCFM="0.0015"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="TornadoWheel01l"
+        SuspensionCFM="0.002"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="TornadoWheel01r"
+        SuspensionCFM="0.002"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="TornadoWheel02"
+        SuspensionERP="0.25"/>
+</Prototypes>

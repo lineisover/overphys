@@ -25,7 +25,7 @@ screenshots:
 
 translations: [eng]
 
-variants: [extra, isl, islextra]
+# variants: [extra, isl, islextra]
 
 prerequisites:
     - name: community_remaster
@@ -34,7 +34,7 @@ prerequisites:
       optional_content:
         - hd_vehicle_models
 
-patcher_version_requirement: "2.1"
+patcher_version_requirement: "3.0.6"
 
 no_base_content: true
 
@@ -46,20 +46,47 @@ optional_content:
     default_option: skip
     data_dirs:
       - "roads"
+
   - name: vehicles
     display_name: "Физика автомобилей"
     description: |
       Изменяет физические характеристики автомобилей, а так же работу подвески. Важно! Правильная работа будет только при локе в 120 fps.
     default_option: skip
     data_dirs:
-      - "vehicles"
+      - "fakedir"
+    merge_instructions:
+      - "merge_vehicles.yaml"
+
+  - name: extra
+    display_name: "Физика автомобилей [ExtraMachines]"
+    description: |
+      Опция совместимости с ExtraMachines.
+    default_option: skip
+    data_dirs:
+      - "fakedir"
+    merge_instructions:
+      - "merge_extra_vehicles.yaml"
+
   - name: tiles
     display_name: "Физика ландшафта"
     description: |
       Изменяет физические характеристики материалов ландшафта.
     default_option: skip
     data_dirs:
-      - "tiles"
+      - "fakedir"
+    merge_instructions:
+      - "merge_tiles.yaml"
+
+  - name: tiles_isl
+    display_name: "Физика ландшафта [ISL]"
+    description: |
+      Опция совместимости с ISL.
+    default_option: skip
+    data_dirs:
+      - "fakedir"
+    merge_instructions:
+      - "merge_isl_tiles.yaml"
+
   - name: effects
     display_name: "Обновление эффектов"
     description: |

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="sml1Wheel01"
+        SuspensionCFM="0.007"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="sml1Wheel02"
+        SuspensionCFM="0.0055"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="sml2Wheel01"
+        SuspensionCFM="0.006"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="sml2Wheel02"
+        SuspensionCFM="0.006"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="sml3Wheel01"
+        SuspensionCFM="0.009"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="sml4Wheel01"
+        SuspensionCFM="0.007"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="sml4Wheel02"
+        SuspensionCFM="0.007"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="bugWheel01"
+        SuspensionERP="0.15"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="bugWheel02"
+        SuspensionERP="0.15"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="uralWheel01l"
+        SuspensionCFM="0.0025"
+        SuspensionERP="0.3"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="uralWheel01r"
+        SuspensionCFM="0.0025"
+        SuspensionERP="0.3"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="uralWheel02l"
+        SuspensionCFM="0.0025"
+        SuspensionERP="0.3"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="uralWheel02r"
+        SuspensionCFM="0.0025"
+        SuspensionERP="0.3"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="fighterWheel01l"
+        SuspensionCFM="0.008"
+        SuspensionERP="0.15"
+        SuspensionRange="1.0"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="fighterWheel01r"
+        SuspensionCFM="0.008"
+        SuspensionERP="0.15"
+        SuspensionRange="1.0"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="fighterWheel02l"
+        SuspensionCFM="0.008"
+        SuspensionERP="0.15"
+        SuspensionRange="1.0"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="fighterWheel02r"
+        SuspensionCFM="0.008"
+        SuspensionERP="0.15"
+        SuspensionRange="1.0"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="hunterWheel01l"
+        SuspensionCFM="0.007"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="hunterWheel01r"
+        SuspensionCFM="0.007"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="dozerWheel01"
+        SuspensionCFM="0.005"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="dozerWheel01l"
+        SuspensionCFM="0.005"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="dozerWheel02"
+        SuspensionCFM="0.005"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="dozerWheel02l"
+        SuspensionCFM="0.005"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="scoutWheel01"
+        SuspensionCFM="0.008"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="scoutWheel02"
+        SuspensionCFM="0.008"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="arcadescoutWheel01"
+        SuspensionCFM="0.006"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="arcadescoutWheel02"
+        SuspensionCFM="0.006"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="molokovozWheel_f_r"
+        SuspensionERP="0.2"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="molokovozWheel_f_l"
+        SuspensionERP="0.2"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="molokovozWheel_r_r"
+        SuspensionERP="0.2"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="molokovozWheel_r_l"
+        SuspensionERP="0.2"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="belazWheel01L"
+        SuspensionERP="0.15"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="belazWheel01R"
+        SuspensionERP="0.15"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="belazWheel02L"
+        SuspensionERP="0.15"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="belazWheel02R"
+        SuspensionERP="0.15"/>
+
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Wheels']"
+        _SelectorKeys="Name"
+        Name="mirotvorecWheel01"
+        SuspensionERP="0.15"/>
+</Prototypes>

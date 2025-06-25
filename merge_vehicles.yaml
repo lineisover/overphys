@@ -1,0 +1,5 @@
+- commands: merge\vehicles\_commands_vehicles.xml
+  targets:  gamedata\gameobjects\vehicles.xml
+
+- commands: merge\vehicles\_commands_vehicleparts.xml
+  targets:  gamedata\gameobjects\vehicleparts.xml

@@ -1,0 +1,2 @@
+- commands: merge\tiles\_commands_tilesprops.xml
+  targets:  tiles\tilesprops.xml

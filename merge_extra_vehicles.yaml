@@ -1,0 +1,5 @@
+- commands: merge\vehicles\_commands_ExtraMachinesVehicles.xml
+  targets:  gamedata\gameobjects\ExtraMachinesVehicles.xml
+
+- commands: merge\vehicles\_commands_ExtraMachinesParts.xml
+  targets:  gamedata\gameobjects\ExtraMachinesParts.xml

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Sml4"
+        DriftCoeff="0.4"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Sml3"
+        DriftCoeff="0.4"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Sml2"
+        DiffRatio="5.0"
+        HighGearShiftLimit="4000"
+        AdditionalWheelsHover="0.2"
+        DriftCoeff="0.4"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Sml1"
+        DriftCoeff="0.4"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Scout"
+        DiffRatio="4.0"
+        MaxEngineRpm="5000"
+        LowGearShiftLimit="2000"
+        HighGearShiftLimit="4200"
+        DriftCoeff="0.5"
+        MassTranslation="0 -0.6 0"
+        AdditionalWheelsHover="0.1"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Fighter"
+        MaxEngineRpm="4000"
+        LowGearShiftLimit="2000"
+        HighGearShiftLimit="3200"
+        DriftCoeff="0.99"
+        MassTranslation="0 -0.5 -0.2"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Hunter"
+        MassTranslation="0 -0.6 0"
+        DriftCoeff="0.99"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Cruiser"
+        MassTranslation="0 -0.6 0"
+        DriftCoeff="0.99"
+        AdditionalWheelsHover="0.2"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Dozer"
+        MassTranslation="0 -0.8 0"
+        DriftCoeff="0.99"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Bug"
+        PressingForce="1.0"
+        MassTranslation="0 -0.1 0"
+        DriftCoeff="0.99"
+        AdditionalWheelsHover="0.1"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Molokovoz"
+        PressingForce="1.0"
+        DriftCoeff="0.99"
+        MassTranslation="0 -0.6 0"
+        AdditionalWheelsHover="-0.1"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="MolokovozTrailer"
+        DriftCoeff="0.99"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Ural"
+        PressingForce="1.0"
+        DriftCoeff="0.99"
+        MassTranslation="0 -1.5 0"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Belaz"
+        PressingForce="1.0"
+        DriftCoeff="0.99"
+        MassTranslation="0 -1.2 0.5"
+        AdditionalWheelsHover="0.1"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="Mirotvorec"
+        PressingForce="1.0"
+        DriftCoeff="0.99"
+        MassTranslation="0 -0.8 0"/>
+</Prototypes>
