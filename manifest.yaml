@@ -60,7 +60,7 @@ optional_content:
     merge_instructions:
       - "merge_vehicles.yaml"
 
-  - name: extra
+  - name: vehicles_extra
     display_name: "Физика автомобилей [ExtraMachines]"
     description: |
       Опция совместимости с ExtraMachines. Включать вместе с базовой опцией "Физика автомобилей".
