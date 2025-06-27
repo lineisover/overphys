@@ -1,13 +1,13 @@
 name: overphys
-# version: "1.0.1"
-# build: "250126a"
+# version: "2.0.0"
+# build: "250625a"
 language: eng
 
 display_name: "OverPhys"
 authors: OverLine
 description: |
     OverPhys - A collection of changes to physics and related parameters, vehicles and surfaces. Additionally changes some effects.
-    Important! All physics settings work as intended only when the game is locked to 120 fps.
+    Important! All physics settings work as intended only at loca at 120 fps.
     Spinning around the enemy has never been so difficult!
 release_date: "28.10.2024"
 link: "https://github.com/lineisover/overphys"
@@ -17,7 +17,7 @@ install_banner: assets/overphys_banner.png
 
 tags: [gameplay, visual, vehicles]
 
-change_log: assets/changelog_eng.md
+change_log: assets/changelog.md
 
 screenshots:
   - img: assets/screen/0.png
@@ -25,7 +25,7 @@ screenshots:
 
 # translations: [eng]
 
-# variants: [extra]
+# variants: [extra, isl, islextra]
 
 prerequisites:
     - name: community_remaster
@@ -34,7 +34,10 @@ prerequisites:
       optional_content:
         - hd_vehicle_models
 
-patcher_version_requirement: "2.1"
+patcher_version_requirement: "3.0.6"
+
+compatible_patch_versions: true
+strict_requirements: false
 
 no_base_content: true
 
@@ -46,24 +49,51 @@ optional_content:
     default_option: skip
     data_dirs:
       - "roads"
+
   - name: vehicles
-    display_name: "Vehicles physics"
+    display_name: "Vehicle physics"
     description: |
-      Changes the physical characteristics of cars, as well as the operation of the suspension. Important! Correct operation will be only locked at 120 fps.
+      Changes the physical characteristics of the vehicles as well as suspension performance. Important! Correct operation will be only at lock 120 fps.
     default_option: skip
     data_dirs:
-      - "vehicles"
+      - "fakedir"
+    merge_instructions:
+      - "merge_vehicles.yaml"
+
+  - name: extra
+    display_name: "Vehicle physics [ExtraMachines]"
+    description: |
+      ExtraMachines compatibility option.
+    default_option: skip
+    data_dirs:
+      - "fakedir"
+    merge_instructions:
+      - "merge_extra_vehicles.yaml"
+
   - name: tiles
     display_name: "Landscape physics"
     description: |
       Alters the physical characteristics of landscape materials.
     default_option: skip
     data_dirs:
-      - "tiles"
-  - name: effects
-    display_name: "Updating the effects"
+      - "fakedir"
+    merge_instructions:
+      - "merge_tiles.yaml"
+
+  - name: tiles_isl
+    display_name: "Landscape physics [ISL]"
     description: |
-      Modifies the effects of dust from under the tires.
+      ISL Compatibility Option.
+    default_option: skip
+    data_dirs:
+      - "fakedir"
+    merge_instructions:
+      - "merge_isl_tiles.yaml"
+
+  - name: effects
+    display_name: "Updating effects"
+    description: |
+      Changes the effects of dust from under the tires.
     default_option: skip
     data_dirs:
       - "effects"

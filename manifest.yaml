@@ -1,6 +1,6 @@
 name: overphys
-version: "1.0.1"
-build: "250126a"
+version: "2.0.0"
+build: "250625a"
 language: ru
 
 display_name: "OverPhys"
@@ -35,6 +35,9 @@ prerequisites:
         - hd_vehicle_models
 
 patcher_version_requirement: "3.0.6"
+
+compatible_patch_versions: true
+strict_requirements: false
 
 no_base_content: true
 

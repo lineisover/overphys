@@ -1,5 +1,9 @@
 # OverPhys changelog
 
+## 2.0.0
+
+* Switching to a merge mod system.
+
 ## 1.0.1
 
 * Added support for ISL 1.2.1 + ExtraMachines 1.2.2
