@@ -63,7 +63,7 @@ optional_content:
   - name: extra
     display_name: "Физика автомобилей [ExtraMachines]"
     description: |
-      Опция совместимости с ExtraMachines.
+      Опция совместимости с ExtraMachines. Включать вместе с базовой опцией "Физика автомобилей".
     default_option: skip
     data_dirs:
       - "fakedir"
@@ -83,7 +83,7 @@ optional_content:
   - name: tiles_isl
     display_name: "Физика ландшафта [ISL]"
     description: |
-      Опция совместимости с ISL.
+      Опция совместимости с ISL. Включать вместе с базовой опцией "Физика ландшафта"
     default_option: skip
     data_dirs:
       - "fakedir"

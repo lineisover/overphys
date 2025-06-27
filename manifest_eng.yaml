@@ -17,7 +17,7 @@ install_banner: assets/overphys_banner.png
 
 tags: [gameplay, visual, vehicles]
 
-change_log: assets/changelog.md
+change_log: assets/changelog_eng.md
 
 screenshots:
   - img: assets/screen/0.png
@@ -63,7 +63,7 @@ optional_content:
   - name: extra
     display_name: "Vehicle physics [ExtraMachines]"
     description: |
-      ExtraMachines compatibility option.
+      ExtraMachines compatibility option. To be included together with the basic option "Vehicle Physics".
     default_option: skip
     data_dirs:
       - "fakedir"
@@ -83,7 +83,7 @@ optional_content:
   - name: tiles_isl
     display_name: "Landscape physics [ISL]"
     description: |
-      ISL Compatibility Option.
+      ISL Compatibility Option. Include together with the basic Landscape Physics option
     default_option: skip
     data_dirs:
       - "fakedir"
